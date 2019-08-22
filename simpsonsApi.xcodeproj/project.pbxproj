@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBD407A0189A853622AE53C /* Pods_simpsonsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9D30618DCD5502E9EF37B2 /* Pods_simpsonsApi.framework */; };
 		F6EED5C9230E915900CCCA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EED5C8230E915900CCCA07 /* AppDelegate.swift */; };
 		F6EED5CB230E915900CCCA07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EED5CA230E915900CCCA07 /* ViewController.swift */; };
 		F6EED5CE230E915900CCCA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EED5CC230E915900CCCA07 /* Main.storyboard */; };
 		F6EED5D0230E915C00CCCA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EED5CF230E915C00CCCA07 /* Assets.xcassets */; };
 		F6EED5D3230E915C00CCCA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EED5D1230E915C00CCCA07 /* LaunchScreen.storyboard */; };
+		F6EED5DB230EAFB100CCCA07 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EED5DA230EAFB100CCCA07 /* CharacterViewController.swift */; };
+		F6EED5DD230EAFCB00CCCA07 /* Character .swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EED5DC230EAFCB00CCCA07 /* Character .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BBA36415497FC41CFEE90BE /* Pods-simpsonsApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpsonsApi.release.xcconfig"; path = "Target Support Files/Pods-simpsonsApi/Pods-simpsonsApi.release.xcconfig"; sourceTree = "<group>"; };
+		E11CCEE1763E03BA404AB9B1 /* Pods-simpsonsApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpsonsApi.debug.xcconfig"; path = "Target Support Files/Pods-simpsonsApi/Pods-simpsonsApi.debug.xcconfig"; sourceTree = "<group>"; };
 		F6EED5C5230E915900CCCA07 /* simpsonsApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpsonsApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EED5C8230E915900CCCA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6EED5CA230E915900CCCA07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		F6EED5CF230E915C00CCCA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6EED5D2230E915C00CCCA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6EED5D4230E915C00CCCA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EED5DA230EAFB100CCCA07 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		F6EED5DC230EAFCB00CCCA07 /* Character .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character .swift"; sourceTree = "<group>"; };
+		FA9D30618DCD5502E9EF37B2 /* Pods_simpsonsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simpsonsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBD407A0189A853622AE53C /* Pods_simpsonsApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13171EC7DD61DF6F057B9BBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11CCEE1763E03BA404AB9B1 /* Pods-simpsonsApi.debug.xcconfig */,
+				0BBA36415497FC41CFEE90BE /* Pods-simpsonsApi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2DC1F37F48010FD3B595485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D30618DCD5502E9EF37B2 /* Pods_simpsonsApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6EED5BC230E915900CCCA07 = {
 			isa = PBXGroup;
 			children = (
 				F6EED5C7230E915900CCCA07 /* simpsonsApi */,
 				F6EED5C6230E915900CCCA07 /* Products */,
+				13171EC7DD61DF6F057B9BBE /* Pods */,
+				E2DC1F37F48010FD3B595485 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +88,8 @@
 				F6EED5CF230E915C00CCCA07 /* Assets.xcassets */,
 				F6EED5D1230E915C00CCCA07 /* LaunchScreen.storyboard */,
 				F6EED5D4230E915C00CCCA07 /* Info.plist */,
+				F6EED5DA230EAFB100CCCA07 /* CharacterViewController.swift */,
+				F6EED5DC230EAFCB00CCCA07 /* Character .swift */,
 			);
 			path = simpsonsApi;
 			sourceTree = "<group>";
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6EED5D7230E915C00CCCA07 /* Build configuration list for PBXNativeTarget "simpsonsApi" */;
 			buildPhases = (
+				E6861A60C523AD2E3200AAD8 /* [CP] Check Pods Manifest.lock */,
 				F6EED5C1230E915900CCCA07 /* Sources */,
 				F6EED5C2230E915900CCCA07 /* Frameworks */,
 				F6EED5C3230E915900CCCA07 /* Resources */,
+				B8965F07910114D7388D198A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8965F07910114D7388D198A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simpsonsApi/Pods-simpsonsApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simpsonsApi/Pods-simpsonsApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simpsonsApi/Pods-simpsonsApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6861A60C523AD2E3200AAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simpsonsApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6EED5C1230E915900CCCA07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EED5DD230EAFCB00CCCA07 /* Character .swift in Sources */,
+				F6EED5DB230EAFB100CCCA07 /* CharacterViewController.swift in Sources */,
 				F6EED5CB230E915900CCCA07 /* ViewController.swift in Sources */,
 				F6EED5C9230E915900CCCA07 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +356,7 @@
 		};
 		F6EED5D8230E915C00CCCA07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11CCEE1763E03BA404AB9B1 /* Pods-simpsonsApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +375,7 @@
 		};
 		F6EED5D9230E915C00CCCA07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBA36415497FC41CFEE90BE /* Pods-simpsonsApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
