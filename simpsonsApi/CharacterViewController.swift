@@ -26,18 +26,14 @@ class CharacterViewController: UIViewController {
         quote.text = ""
         characterName.text = ""
         
-//        quote.isHidden = true
-//        characterName.isHidden = true
-        
         showButtonSetup()
-        fetchData()
         
     }
-    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        fetchData()
         imageActivity.startAnimating()
         imageActivity.hidesWhenStopped = true
         
