@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="121" image="cloud2" translatesAutoresizingMaskIntoConstraints="NO" id="w2z-Vu-xxd">
-                                <rect key="frame" x="16" y="482" width="240" height="121"/>
+                                <rect key="frame" x="16" y="486.5" width="240" height="121"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="w2z-Vu-xxd" secondAttribute="height" multiplier="240:121" id="gFa-F9-IoI"/>
                                 </constraints>
@@ -30,9 +30,9 @@
                                     <constraint firstAttribute="width" secondItem="ng7-Po-TJu" secondAttribute="height" multiplier="37:17" id="nAY-wi-rSg"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhu-FK-eU5" customClass="SpringButton" customModule="Spring">
-                                <rect key="frame" x="166" y="418" width="82" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhu-FK-eU5" customClass="SpringButton" customModule="Spring">
+                                <rect key="frame" x="149" y="413.5" width="116" height="69"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="45"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="1" green="0.89980295020000001" blue="0.37100196619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="159" placeholderIntrinsicHeight="79" image="cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="zRt-hA-PDb">
-                                <rect key="frame" x="247" y="322" width="159" height="79"/>
+                                <rect key="frame" x="247" y="317.5" width="159" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zRt-hA-PDb" secondAttribute="height" multiplier="159:79" id="JgY-Zc-Fhk"/>
                                 </constraints>
